@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+   <div class="wrapper">
+
+      <div class="main-fullscreen fullscreen">
+         <div class="fullscreen-ibg">
+            <img src="@img/bg.jpg" alt="header-image">
+         </div>
+
+         <div class="fullscreen__body">
+
+            <div class="fullscreen__logo">
+               <a href="#" class="fullscreen__logo"><img src="../img/logo-w.svg" alt="fullscreen logo"></a>
+            </div>
+
+            <div class="fullscreen__title">
+               <div class="fullscreen__main-title">PARTNER WITH KONSTRUCT</div>
+               <div class="fullscreen__subtitle">An award-winning construction management firm</div>
+            </div>
+
+            <div class="fullscreen__scrolldown"><a href="#story">SCROLL DOWN</a></div>
+
+         </div>
+
+      </div>
+
+      @@include('html/_header.htm',{})
+      <main class="page">
+
+         <div id="story" class="page__story story">
+
+            <div class="story__container">
+
+               <div class="story__title title">OUR STORY</div>
+
+               <div class="story__items">
+
+                  <div class="story__item item-story">
+                     <div class="item-story__content">
+                        <div class="item-story__caption">Founded in 2011 by John Mathew Smith, <span>Konstruct</span>
+                           has
+                           become the number one construction management firm</div>
+                        <div class="item-story__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit
+                           amet,
+                           consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                           aliquam erat.</div>
+                     </div>
+
+                  </div>
+
+                  <div class="story__item item-story">
+                     <div class="item-story__plans">
+
+                        <div class="item-story__images">
+                           <div class="item-story__label">WE PLAN</div>
+                           <div class="item-story__image-ibg">
+                              <img src="@img/story/01.jpg" alt="картинка">
+                           </div>
+
+                        </div>
+
+                        <div class="item-story__images">
+                           <div class="item-story__label">WE
+                              MANAGE</div>
+                           <div class="item-story__image-ibg">
+                              <img src="@img/story/02.jpg" alt=картинка">
+                           </div>
+
+                        </div>
+
+                        <div class="item-story__images">
+                           <div class="item-story__label">WE
+                              BUILD</div>
+                           <div class="item-story__image-ibg">
+                              <img src="@img/story/03.jpg" alt="картинка">
+                           </div>
+
+                        </div>
+
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+
+
+         <div class="page__capabilities capabilities">
+            <div class="capabilities__container">
+
+               <div class="capabilities__body">
+                  <div class="capabilities__title title">OUR CAPABILITIES</div>
+                  <div class="capabilities__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                  <a href="#" class="capabilities__button button">ALL SERVICES</a>
+
+               </div>
+
+
+            </div>
+         </div>
+
+         <div class="page__services services">
+            <div class="services__container">
+
+
+               <div class="services__items">
+
+                  <div class="services__item">
+                     <div class="services__icon">
+                        <img src="@img/services/01.svg" alt="картинка">
+                     </div>
+                     <div class="services__title">PROJECT AND CONSTRUCTION MANAGEMENT</div>
+                     <div class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                  </div>
+
+                  <div class="services__item">
+                     <div class="services__icon">
+                        <img src="@img/services/02.svg" alt="картинка">
+                     </div>
+                     <div class="services__title">STRUCTURE AUDIT AND MAINTENANCE</div>
+                     <div class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                  </div>
+
+                  <div class="services__item">
+                     <div class="services__icon">
+                        <img src="@img/services/03.svg" alt="картинка">
+                     </div>
+                     <div class="services__title">FACTORY CONSTRUCTION AND MODELING</div>
+                     <div class="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                  </div>
+
+
+               </div>
+            </div>
+         </div>
+
+
+         <div class="page__get get">
+
+            <div class="get__content">
+               <div class="get__title">Want to build <br> something amazing?</div>
+               <a href="#" class="get__button button">GET IN TOUCH</a>
+            </div>
+
+            <div class="get__image-ibg"><img src="@img/footer/bg-footer.jpg" alt="картинка"></div>
+         </div>
+
+
+         <div class="page__signup signup">
+            <div class="signup__container">
+               <div class="signup__label">Newsletter Signup</div>
+               <form action="#" class="signup__form form">
+                  <input data-required="email" autocomplete="off" type="text" name="form[]"
+                     data-error="Enter your email" placeholder="test@youremail.com" class="input">
+                  <button type="submit" class="signup__form-button button">SIGNUP</button>
+               </form>
+            </div>
+
+
+
+         </div>
+
+   </div>
+
+
+   </main>
+   @@include('html/_footer.htm',{})
+   </div>
+   @@include('html/_popup.htm',{})
+   @@include('html/_js.htm',{})
+</body>
+
+</html>
